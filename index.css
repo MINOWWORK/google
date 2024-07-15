@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(236, 99, 99);
+}
+.content nav ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 40px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover{
+   color: rgb(231, 190, 197);
+}
